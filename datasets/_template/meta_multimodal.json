@@ -1,0 +1,28 @@
+{
+    "schema_version": "1.0",
+    "name": "",
+    "modality": "multimodal",
+    "task": "",
+    "artifacts": {},
+    "splits": {},
+    "statistics": {
+        "total_samples": null,
+        "disk_size_bytes": null,
+        "missing": {},
+        "target": {},
+        "modality": {
+            "modalities": {},
+            "availability": {},
+            "alignment": {
+                "paired_samples": null,
+                "incomplete_samples": null
+            }
+        }
+    },
+    "profile": {
+        "generated_at": null,
+        "generator": "scripts/profile.py",
+        "mode": null,
+        "sample_size": null
+    }
+}

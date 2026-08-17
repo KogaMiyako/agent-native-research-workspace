@@ -1,0 +1,31 @@
+{
+    "schema_version": "1.0",
+    "name": "",
+    "modality": "image",
+    "task": "",
+    "artifacts": {},
+    "splits": {},
+    "statistics": {
+        "total_samples": null,
+        "disk_size_bytes": null,
+        "missing": {},
+        "target": {},
+        "modality": {
+            "num_images": null,
+            "channels": {},
+            "resolution": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            },
+            "formats": {}
+        }
+    },
+    "profile": {
+        "generated_at": null,
+        "generator": "scripts/profile.py",
+        "mode": null,
+        "sample_size": null
+    }
+}

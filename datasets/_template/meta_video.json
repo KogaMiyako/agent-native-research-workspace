@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.0",
+    "name": "",
+    "modality": "video",
+    "task": "",
+    "artifacts": {},
+    "splits": {},
+    "statistics": {
+        "total_samples": null,
+        "disk_size_bytes": null,
+        "missing": {},
+        "target": {},
+        "modality": {
+            "num_videos": null,
+            "duration_seconds": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            },
+            "fps": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            },
+            "resolution": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            },
+            "formats": {}
+        }
+    },
+    "profile": {
+        "generated_at": null,
+        "generator": "scripts/profile.py",
+        "mode": null,
+        "sample_size": null
+    }
+}

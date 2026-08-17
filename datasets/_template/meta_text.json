@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.0",
+    "name": "",
+    "modality": "text",
+    "task": "",
+    "artifacts": {},
+    "splits": {},
+    "statistics": {
+        "total_samples": null,
+        "disk_size_bytes": null,
+        "missing": {},
+        "target": {},
+        "modality": {
+            "num_documents": null,
+            "length_chars": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            },
+            "length_words": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            }
+        }
+    },
+    "profile": {
+        "generated_at": null,
+        "generator": "scripts/profile.py",
+        "mode": null,
+        "sample_size": null
+    }
+}

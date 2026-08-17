@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.0",
+    "name": "",
+    "modality": "time_series",
+    "task": "",
+    "artifacts": {},
+    "splits": {},
+    "statistics": {
+        "total_samples": null,
+        "disk_size_bytes": null,
+        "missing": {},
+        "target": {},
+        "modality": {
+            "shape": null,
+            "num_time_steps": null,
+            "num_variables": null,
+            "variable_names": [],
+            "frequency": {
+                "value": null,
+                "unit": null
+            },
+            "regular_sampling": null,
+            "time_range": {
+                "start": null,
+                "end": null
+            }
+        }
+    },
+    "profile": {
+        "generated_at": null,
+        "generator": "scripts/profile.py",
+        "mode": null,
+        "sample_size": null
+    }
+}

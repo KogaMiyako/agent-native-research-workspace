@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.0",
+    "name": "",
+    "modality": "audio",
+    "task": "",
+    "artifacts": {},
+    "splits": {},
+    "statistics": {
+        "total_samples": null,
+        "disk_size_bytes": null,
+        "missing": {},
+        "target": {},
+        "modality": {
+            "num_audio_files": null,
+            "duration_seconds": {
+                "min": null,
+                "max": null,
+                "mean": null,
+                "median": null
+            },
+            "sample_rate_hz": {},
+            "channels": {},
+            "formats": {}
+        }
+    },
+    "profile": {
+        "generated_at": null,
+        "generator": "scripts/profile.py",
+        "mode": null,
+        "sample_size": null
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "run_id": "R001",
+  "run_name": "R001-condition",
+  "experiment": "E001-type-name",
+  "git_commit": "",
+  "status": "pending",
+  "command": "",
+  "command_argv": [],
+  "config_sources": [],
+  "config_snapshots": [],
+  "runner_snapshot": {
+    "path": "scripts/<repo>/runner",
+    "snapshot": "config/_execution/runner",
+    "sha256": ""
+  },
+  "dispatch_snapshot": null,
+  "resources_requested": {
+    "gpus": 0,
+    "min_gpu_memory_mb": 0,
+    "cpus": 0,
+    "memory_gb": 0
+  },
+  "host": "",
+  "device": "",
+  "started_at": null,
+  "finished_at": null,
+  "exit_code": null,
+  "failure_reason": null,
+  "reconciled_at": null
+}
