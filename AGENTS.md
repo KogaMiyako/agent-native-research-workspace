@@ -25,7 +25,8 @@
 | --- | --- |
 | `docs/` | 当前状态、研究历史和规范研究知识 |
 | `datasets/` | 数据集入口、元数据和数据集专用说明 |
-| `references/` | 外部论文、补充材料和其他参考证据 |
+| `references/` | 外部论文、精选参考图、结构分析、补充材料和其他参考证据 |
+| `manuscripts/` | 作者稿件源文件、图版本、当前采用图和投稿归档 |
 | `repos/` | 研究代码实现 |
 | `experiments/` | 研究问题、Run 汇总、分析和实验结论 |
 | `scripts/` | 稳定执行接口与 Experiment 编排 |
@@ -43,6 +44,7 @@
 | --- | --- | --- |
 | 恢复工作、安排近期任务 | `docs/CURRENT.md`、`docs/PROJECT_STATUS.md` | `docs/CURRENT.md` |
 | 管理研究文档 | `docs/README.md` | `docs/` 下对应文档 |
+| 收集参考论文、摘图或分析写作结构 | `references/README.md`、`references/papers/INDEX.md`、对应 `PAPER.md` | `references/papers/<paper-id>/`；自己的图仍归 `manuscripts/` |
 | 梳理研究问题、背景或相关路线 | `docs/README.md`、`docs/research/RESEARCH_BASIS.md` | `RESEARCH_BASIS.md` |
 | 确定数据与评估协议 | `docs/README.md`、`docs/research/DATA_PROTOCOL.md` | `DATA_PROTOCOL.md` |
 | 添加或使用数据集 | `datasets/README.md`、对应 `DATASET.md` | 对应数据集目录；必要时同步 `DATA_PROTOCOL.md` |
@@ -52,6 +54,8 @@
 | 创建运行接口、注册或派发 Run | `scripts/README.md`、`runs/README.md`、对应 Experiment | `scripts/` 和规范 Run 目录 |
 | 查询执行状态或检查结果 | `runs/README.md`、对应 `run.json` 和输出 | Run 保存执行事实；Experiment 保存分析 |
 | 规划正式实验和论文证据 | `docs/research/EXPERIMENT_PLAN.md`、相关方法与协议文档 | `EXPERIMENT_PLAN.md` |
+| 修改、构建或归档作者稿件 | `manuscripts/README.md`、对应稿件的 `README.md` | `manuscripts/<manuscript>/`；实验依据仍回到 Experiment/Run |
+| 生成、修改或采用论文图 | `manuscripts/README.md`、对应稿件的 `figures/FIGURES.md`；涉及代码再读仓库规则 | 候选逐版保存，明确采用后更新稳定入口与图索引 |
 | 修改仓库代码 | 仓库内的 `AGENTS.md`、README 和开发说明；若由实验驱动，再读对应 Experiment | 对应 `repos/<repo>` |
 | 形成临时分析或任务报告 | `docs/README.md` | `docs/reports/` |
 
@@ -118,6 +122,7 @@ Run(s)
 | 创新点状态或完整方法组成变化 | `METHOD.md`，并同步 `PROJECT_STATUS.md` 中对应条目 |
 | 项目阶段或成熟度发生实质变化 | `PROJECT_STATUS.md` |
 | 当前重点、停止位置、下一步或阻塞项变化 | `CURRENT.md` |
+| 稿件权威入口、当前采用图或归档版本变化 | 对应稿件的 `README.md`、`figures/FIGURES.md`；有长期交接意义时追加 `RESEARCH_LOG.md` |
 | 出现影响后续研究理解的重要结论、决策、方向变化或里程碑 | 向 `RESEARCH_LOG.md` 追加简洁条目 |
 
 一次事件涉及多个文档时，通常按以下顺序更新：

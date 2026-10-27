@@ -1,3 +1,27 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Local notes, generated files, and disposable launch diagnostics
+/tmp/
+/output/
+/smoke/
+
+# Independent implementation repositories and local environments
+/repos/*/
+/.venvs/
+
+# Dataset contents or machine-specific data symlinks
+/datasets/*/data
+
+# Large experiment artifacts; keep Run metadata, configs, metrics, and logs
+/runs/**/output/
+
+# Rebuildable manuscript products; keep sources, figures, and releases
+/manuscripts/*/build/*
+!/manuscripts/*/build/.gitkeep
+/manuscripts/*/release/**/build/
+
+# Local reference originals; keep reading notes and selected figure excerpts
+/references/papers/*/paper.pdf
+/references/papers/*/supplement*.pdf
